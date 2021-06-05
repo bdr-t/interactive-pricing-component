@@ -13,11 +13,11 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
+![](./screenshot.png)
 
 ### Links
 
-- Live Site URL: [Add live site URL here](interactive-pricing-component.vercel.com)
+- Live Site URL: [interactive-pricing-component.vercel.com]
 
 ## My process
 
