@@ -1,24 +1,25 @@
-import logo from './logo.svg';
-import './App.css';
+import { Center, VStack } from "@chakra-ui/react";
+import "./App.css";
+import Card from "./Card";
+import Title from "./Title";
+
+import bgPattern from "./assets/bg-pattern.svg";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Center
+      w="100vw"
+      h="100vh"
+      backgroundColor="maingBackground"
+      backgroundImage={`url(${bgPattern})`}
+      bgRepeat="no-repeat"
+      backgroundSize="100%"
+    >
+      <VStack spacing={14} color="textCTAbg">
+        <Title />
+        <Card />
+      </VStack>
+    </Center>
   );
 }
 
